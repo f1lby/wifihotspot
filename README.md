@@ -1,8 +1,8 @@
-**Create a Wi-Fi hotspot in Kali Linux.**
+## Create a Wi-Fi hotspot in Kali Linux.
 
-**I have created a simple set of configuration files and a bash script to spin up a Wi-Fi hotspot using Kali Linux and any old spare PC or Raspberry Pi you have knocking around. Should be fine with Ubuntu, Debian or similar...**<br><br>
+**I have created a simple set of configuration files and a bash script to spin up a Wi-Fi hotspot using Kali Linux and any old spare PC or Raspberry Pi you have knocking around. Should be fine with Ubuntu, Debian or similar... It uses dnsmasq, hostapd and iptables to get things done.**<br><br>
 Assuming your Linux is working fine on a physical PC (not a VM) and connected to a working Ethernet port, using the contents of this repository should enable you to have a simple WPA-2 personal Wi-Fi access point up & running in minutes!<br><br>
-PLEASE NOTE, the password for the Wi-Fi in *hostapdwpa2personal.conf* is rather weak and it is advised to change it for something far more secure!<br><br>
+PLEASE NOTE, the Wi-Fi passphrases in the hostapd conf files might be unsuitable and should be changed for something far more secure!<br><br>
 Prerequisites:<br>
 
 * PC, laptop or Pi
@@ -24,6 +24,12 @@ Prerequisites:<br>
 * Download *startwifiwpa2personal.sh*
 * ### *sudo chmod +x startwifiwpa2personal.sh*
 * ### *sudo ./startwifiwpa2personal.sh*
+
+* ### *sudo systemctl restart dnsmasq*
+
+* ### *sudo hostapd /etc/hostapd/hostapdwpa2personal.conf*
+* ## Change the name of the hostapd.conf file to the one you wish to use (depending on what you need).*
+<br><br>
 
 **And now you should have a working Wi-Fi access point!**
 
