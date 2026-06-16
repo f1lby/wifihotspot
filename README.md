@@ -15,6 +15,14 @@ Prerequisites:
 8) sudo apt update && sudo apt install hostapd dnsmasq -y
 9) sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.bak
 
-   From this repository download the file dnsmasq.conf to /etc/dnsmasq.conf
-   
-   
+From this repository download the file dnsmasq.conf to /etc/dnsmasq.conf
+From this repository download the file hostapdwpa2personal.conf to /etc/hostapd/hostapdwpa2personal.conf
+PLEASE NOTE, the password is hostapdwpa2personal.conf is rather weak and it is advised to change it for something far more secure!
+
+From this repository download the file startwifi.sh to whatever location you wish on your file system
+
+Then run chmod +x startwifi.sh
+And finally sudo ./startwifi.sh
+
+And now you should have a working Wi-Fi access point!
+
