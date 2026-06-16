@@ -18,7 +18,7 @@ Prerequisites:<br>
 * ### *sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.bak*
 
 * Download *dnsmasq.conf* to */etc/dnsmasq.conf*
-* Download *hostapdwpa2personal.conf* to */etc/hostapd/hostapdwpa2personal.conf*<br>
+* Download all *hostapd* .conf files in this repository to */etc/hostapd/*<br>
 
 * Download *startwifi.sh* to whatever location you wish on your file system
 
