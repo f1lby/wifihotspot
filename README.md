@@ -28,7 +28,7 @@ Prerequisites:<br>
 * ### *sudo systemctl restart dnsmasq*
 
 * ### *sudo hostapd /etc/hostapd/hostapdwpa2personal.conf*
-* ## Change the name of the hostapd.conf file to the one you wish to use (depending on what you need).*
+* ## Change the name of the hostapd.conf file to the Wi-Fi configuration profile one you wish to use (depending on what you need).*
 <br><br>
 
 **And now you should have a working Wi-Fi access point!**
