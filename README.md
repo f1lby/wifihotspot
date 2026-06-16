@@ -1,6 +1,6 @@
 Create a Wi-Fi hotspot in Kali Linux.
 
-I have created a simple guide to spinning up a Wi-Fi hotspot using Kali Linux and any old spare PC or Raspberry Pi you have knocking around.
+I have created a simple guide to spinning up a Wi-Fi hotspot using Kali Linux and any old spare PC or Raspberry Pi you have knocking around. Should be fine with Ubuntu, Debian or similar...
 
 Prerequisites:
 
