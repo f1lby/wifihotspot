@@ -25,8 +25,6 @@ Prerequisites:<br>
 * ### *sudo chmod +x startwifi.sh*
 * ### *sudo ./startwifi.sh*
 
-* ### *sudo systemctl restart dnsmasq*
-
 * ### *sudo hostapd /etc/hostapd/hostapdwpa2personal.conf*
 * ## Change the name of the hostapd.conf file to the Wi-Fi configuration profile one you wish to use (depending on what you need).*
 <br><br>
