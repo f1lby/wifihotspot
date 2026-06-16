@@ -21,9 +21,9 @@ Prerequisites:<br>
 * Download all *hostapd* .conf files in this repository to */etc/hostapd/*<br>
 
 
-* Download *startwifiwpa2personal.sh*
-* ### *sudo chmod +x startwifiwpa2personal.sh*
-* ### *sudo ./startwifiwpa2personal.sh*
+* Download *startwifi.sh*
+* ### *sudo chmod +x startwifi.sh*
+* ### *sudo ./startwifi.sh*
 
 * ### *sudo systemctl restart dnsmasq*
 
