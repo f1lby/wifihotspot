@@ -20,10 +20,10 @@ Prerequisites:<br>
 * Download *dnsmasq.conf* to */etc/dnsmasq.conf*
 * Download all *hostapd* .conf files in this repository to */etc/hostapd/*<br>
 
-* Download *startwifi.sh* to whatever location you wish on your file system
 
-* ### *sudo chmod +x startwifi.sh*
-* ### *sudo ./startwifi.sh*
+* Download *startwifiwpa2personal.sh*
+* ### *sudo chmod +x startwifiwpa2personal.sh*
+* ### *sudo ./startwifiwpa2personal.sh*
 
 **And now you should have a working Wi-Fi access point!**
 
